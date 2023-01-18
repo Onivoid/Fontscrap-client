@@ -22,7 +22,7 @@
     },
     methods: {
         async sendData() {
-            axios.post('https://fontscrap.skullyfox-tv.fr/scrap', {
+            axios.post('https://fontscrapAPI.skullyfox-tv.fr/scrap', {
                 url: this.inputValue
             })
             .then(response => {
