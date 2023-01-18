@@ -22,7 +22,7 @@
     },
     methods: {
         async sendData() {
-            axios.post('http://163.172.154.157:3000/scrap', {
+            axios.post('http://fontscrap.skullyfox-tv.fr/scrap', {
                 url: this.inputValue
             })
             .then(response => {
